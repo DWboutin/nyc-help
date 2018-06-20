@@ -1,0 +1,32 @@
+@import '../../global';
+
+.small-device-card{
+  display: flex;
+  padding: 12px 8px;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+  cursor: grab;
+
+  &:active{
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+  }
+
+  i{
+    font-size: 1.3em;
+    padding-top: 4px;
+    text-align: center;
+  }
+
+  .device-icon{
+    flex: 1;
+  }
+  .grabber{
+    flex: 1;
+  }
+  .text{
+    font-size: 1.15em;
+    flex: 12;
+  }
+}

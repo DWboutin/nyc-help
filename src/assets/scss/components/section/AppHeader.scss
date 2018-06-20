@@ -1,0 +1,19 @@
+@import '../../variables';
+
+#app-header{
+  background-color: #fff;
+  border-top: 3px solid #2081AA;
+  color: $font-dark-color;
+
+  .title-bar{
+    flex: 1;
+  }
+
+  .utils-button{
+    font-size: 2.2em;
+  }
+  
+  .app-menu--opener{
+    cursor: pointer;
+  }
+}

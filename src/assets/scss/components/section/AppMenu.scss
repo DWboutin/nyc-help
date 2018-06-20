@@ -1,0 +1,56 @@
+@import '../../variables';
+@import '../../global';
+
+#app-menu{
+  color: $font-dark-color;
+
+  .container{
+    width: 340px;
+    background-color: $light-blue;
+
+    &:focus{
+      outline: none;
+    }
+  }
+
+  .utils-button{
+    font-size: 2.2em;
+  }
+
+  .button--close{
+    float: right;
+    padding-top: 13px;
+
+    &:hover{
+      background-color: transparent;
+      color: $font-dark-color;
+    }
+  }
+
+  .header{
+    height: 70px;
+    background-color: $normal-blue;
+    border-bottom: 3px solid $darker-blue;
+    border-top: 3px solid #2081AA;
+    justify-content: center;
+    color: #fff;
+
+    &:focus{
+      outline: none;
+    }
+  }
+
+  .title{
+    line-height: 65px;
+    color: #fff;
+    font-style: italic;
+  }
+
+  .list{
+    padding-top: 1.6em;
+
+    .item{
+      margin-bottom: 0.8em;
+    }
+  }
+}

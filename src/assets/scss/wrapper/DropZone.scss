@@ -1,0 +1,7 @@
+@import '../variables';
+
+.drop-zone{
+  &.dropIsActive{
+    background-color: $placeholder-blue;
+  }
+}

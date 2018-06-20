@@ -1,0 +1,39 @@
+@import '../../global';
+@import '../../variables';
+
+.widgetCard{
+  height: 100%;
+  width: 100%;
+
+  .header{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $normal-blue;
+
+    i,
+    .title{
+      color: #fff;
+    }
+    .title{
+      flex: 100;
+      font-size: 1em;
+    }
+    .icon{
+      flex: 1;
+      font-size: 1.2em;
+      @extend .padded-8;
+    }
+    .options{
+      display: flex;
+      flex: 3;
+      text-align: right;
+      align-items: center;
+
+      button{
+        font-size: 1.2em;
+      }
+    }
+  }
+}
